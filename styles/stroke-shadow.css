@@ -7,11 +7,11 @@
 }
 
 .shadow {
-    text-shadow: 6px 6px #db2777;
+    text-shadow: 6px 6px #666666;
 }
 
 .stroke-shadow {
-    color: #fef3c7;
+    color: #ffffff;
     text-shadow: -2px 0 #111827, 0 -2px #111827, 2px 0 #111827, 0 2px #111827, 2px 2px #111827, -2px -2px #111827, -2px 2px #111827, 2px -2px #111827, 6px 6px #db2777;
 }
 
@@ -38,5 +38,5 @@
 }
 
 .halftone-color:after {
-    background-color: #db2777;
+    background-color: #666666;
 }
