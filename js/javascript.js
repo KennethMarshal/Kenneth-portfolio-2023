@@ -6,14 +6,3 @@ $(document).ready(function() {
   });
 });
 
-function animationIn() {
-  document.getElementById("logo").src =
-    "https://assets.codepen.io/316293/kenneth-latham-logo-off.svg";
-  document.getElementById("logo").alt = "animationIn";
-}
-
-function animationOut() {
-  document.getElementById("logo").src =
-    "https://assets.codepen.io/316293/kenneth-latham-logo-on.svg";
-  document.getElementById("logo").alt = "animationOut";
-}
