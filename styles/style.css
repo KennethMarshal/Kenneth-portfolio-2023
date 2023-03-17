@@ -244,6 +244,35 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Interactive Logo Styles 
+
+██╗      ██████╗  ██████╗  ██████╗ 
+██║     ██╔═══██╗██╔════╝ ██╔═══██╗
+██║     ██║   ██║██║  ███╗██║   ██║
+██║     ██║   ██║██║   ██║██║   ██║
+███████╗╚██████╔╝╚██████╔╝╚██████╔╝
+╚══════╝ ╚═════╝  ╚═════╝  ╚═════╝ 
+*/
+
+.color-1 {
+  fill: #f2f2f2;
+  transition: all 0.5s ease-in-out;
+}
+.color-1:hover {
+  fill: black;
+}
+.color-2 {
+  fill: black;
+}
+
+.color-2:hover {
+  fill: #f2f2f2;
+  transition: all 0.5s ease-in-out;
+}
+.stroke {
+  /* fill: #29abe2; */
+  fill: none;
+}
 
 
 /* Hero 
