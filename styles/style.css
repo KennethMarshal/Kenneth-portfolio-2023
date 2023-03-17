@@ -93,6 +93,7 @@ html {
   --background-color: #f5f5f5;
   --alt-background-color: black;
   --text-selection-background-color: #555;
+  --dead-color: #51017b;
 }
 
 
@@ -631,6 +632,10 @@ p {
 
 .error-page-title {
   color: var(--accent-color);
+}
+
+.dead-end {
+  color: var(--dead-color);
 }
 
 
