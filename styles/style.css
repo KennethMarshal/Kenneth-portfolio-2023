@@ -52,7 +52,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/Cursor.png"), auto !important;
+  cursor: url("../assets/Cursor.png"), auto !important;
 }
 
 *,
@@ -173,7 +173,7 @@ h4 {
 
 /* Hyperlink Styles */
 
-a:link    { color: var(--hyperlink-color); text-decoration: none;}
+a:link    { color: var(--hyperlink-color); text-decoration: none;cursor: url("../assets/Cursor.png"), auto !important;}
 a:visited { color: var(--hyperlink-color); }
 a:hover   { color: var(--hover-color); }
 a:focus   { outline: 1px solid var(--accent-color); }
