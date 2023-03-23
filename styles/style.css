@@ -526,9 +526,7 @@ p {
 
 .project-details-colors {
   background-image: linear-gradient(-225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%);
+  #350043, #7400bc , #b80193,#800066);
 }
 
 .project-image-container {
