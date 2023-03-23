@@ -75,6 +75,7 @@ html {
   --primary-text-color: #222;
   --holding-page-title-color: #51017b;
   --accent-color: #ff009d;
+  --hero-background-color: #7400bc;
   --overlay-color: #5200FF;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
@@ -291,7 +292,7 @@ p {
   display: flex;
   flex-direction: column;
 }
-
+.hero-header {background: var(--hero-background-color);}
 .branding-navigation {
   display: flex;
   flex-direction: row;

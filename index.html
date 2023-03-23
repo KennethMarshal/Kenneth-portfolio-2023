@@ -17,16 +17,31 @@
   <div class="holding-page-wrapper">
     <div class="holding-page-inner-container">
       <a href="work.html">
-        <figure class="holding-page-animation">
-          <img src="assets/temp/holding-page-animation.gif" alt="Portfolio Website Launching Soon">
+        <figure class="logo">
+          <img onmouseover="animationIn()" onmouseout="animationOut()" src="assets/kenneth-latham-logo-on.svg"
+            alt="logo" id="logo" />
         </figure>
         <h1 class="holding-page-title">Kenneth's Portfolio Launching Soon</h1>
       </a>
     </div>
     <div class="holding-page-footer">
       <p class="holding-page-copyright">Copyright 2023. All rights reserved.</p>
-    </div>    
+    </div>
   </div>
+  <script>
+    function animationIn() {
+      document.getElementById("logo").src =
+        "assets/kenneth-latham-logo-off.svg";
+      document.getElementById("logo").alt = "animationIn";
+    }
+
+    function animationOut() {
+      document.getElementById("logo").src =
+        "assets/kenneth-latham-logo-on.svg";
+      document.getElementById("logo").alt = "animationOut";
+    }
+  </script>
+
 </body>
 
 </html>
