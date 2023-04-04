@@ -95,6 +95,7 @@ html {
   --alt-background-color: black;
   --text-selection-background-color: #555;
   --dead-color: #51017b;
+  --blog-heading: black;
 }
 
 
@@ -293,6 +294,7 @@ p {
   flex-direction: column;
 }
 .hero-header {background: var(--hero-background-color);}
+
 .branding-navigation {
   display: flex;
   flex-direction: row;
@@ -586,8 +588,7 @@ p {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background:
-    url(../assets/diagonal-lines-new.svg)
+  background: var(--background-color)
 }
 
 
