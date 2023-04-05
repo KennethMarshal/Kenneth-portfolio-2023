@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Free Creative Portfolio Template: February 2023 Version | Project Page (Clean Version)</title>
+  <title>Free Creative Portfolio Template: February 2023 Version | Project Page</title>
   <meta name="description"
     content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
   <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body class="project-2">
+<body class="project-1">
   <header class="hero-header">
     <ul class="branding-navigation">
       <li><a href="work.html" class="custom-navigation">Work</a></li>
@@ -25,26 +25,31 @@
       <li><a href="about.html" class="custom-navigation">About</a></li>
     </ul>
   </header>
-  <div class="project-wrapper">
-    <aside class="project-aside">
+  <div class="project-wrapper project-wrapper-colors">
+    <aside class="project-aside project-aside-colors">
       <div class="project-info">
-        <h1 class="project-title">Your Project Title</h1>
-        <p class="project-description">A brief description of your project goes here. This is the clean version with
-          simpler colours. If you want to use this, delete project-1.html and project-page-colors.css</p>
+        <h1 class="project-title project-title-colors">Yukon U Coffee Card</h1>
+        <p class="project-description">For this project I created two coffee card varients for the local campus store here at Yukon U. The Branded card had to meet the branding requirements of Yukon U, which did not leave much room for creativity. However the unbranded one left muh more room as there were only a few text and spacing requirements for the layout of the coffee card. Other than that the card could be mage however I wanted. </p>
+
       </div>
       <ul class="project-navigation">
-        <li class="arrow"><a href="project-1.html" class="navigation-arrow"><i class="fas fa-arrow-left fa-2x"></i></a>
+        <li class="arrow"><a href="#" class="navigation-arrow"><i class="fas fa-arrow-left fa-2x"></i></a></li>
+        <li class="arrow"><a href="project-2.html" class="navigation-arrow"><i class="fas fa-arrow-right fa-2x"></i></a>
         </li>
-        <li class="arrow"><a href="#" class="navigation-arrow"><i class="fas fa-arrow-right fa-2x"></i></a></li>
       </ul>
     </aside>
-    <main class="project-details">
-      <div class="project-image">🐸</div>
-      <div class="project-image">🌼</div>
-      <div class="project-image">🌵</div>
-      <div class="project-image">✨</div>
-      <div class="project-image">🕷</div>
+    <main class="project-details project-details-colors">
+      <div class="project-image"><img src="assets/work-examples/Coffee/CoffeeCardsForYukonU_Original Coffee Front.png" width="800" height="800"
+          alt="A description of the image"></div>
+      <div class="project-image"><img src="assets/work-examples/Coffee/CoffeeCardsForYukonU_Original Coffee Back.png" width="800" height="800"
+          alt="A description of the image"></div>
+      <div class="project-image"><img src="assets/work-examples/Coffee/CoffeeCardsForYukonU_YukonU Coffee Front.png" width="800" height="800"
+          alt="A description of the image"></div>
+      <div class="project-image"><img src="assets/work-examples/Coffee/CoffeeCardsForYukonU_YukonU Coffee Back.png" width="800" height="800"
+          alt="A description of the image"></div>
+
     </main>
+
   </div>
   <ul class="global-footer">
     <li class="footer-item-1">
@@ -81,9 +86,20 @@
         James Neufeld.</p>
     </li>
   </ul>
-
-  <div id="myID" class="bottomMenu hide"><a href="project-1.html">Previous Project</a></div>
-
+  <div id="myID" class="bottomMenu hide"><a href="project-2.html">Next Project</a></div>
+  <div id="ghostanimation" class="ghost"><img src="assets/temp/cactus.svg" /></div>
+  <script type="text/javascript">
+    function ShowHideDiv(btnGhost) {
+      var GhostStyle = document.getElementById("ghostanimation");
+      if (btnGhost.value == "Hide Ghost") {
+        GhostStyle.style.display = "none";
+        btnGhost.value = "Play Ghost";
+      } else {
+        GhostStyle.style.display = "block";
+        btnGhost.value = "Hide Ghost";
+      }
+    }
+  </script>
   <script type="text/javascript">
     myID = document.getElementById("myID");
 
@@ -98,7 +114,6 @@
 
     window.addEventListener("scroll", myScrollFunc);
   </script>
-
   <script>
     function animationIn() {
       document.getElementById("logo").src =
@@ -112,6 +127,7 @@
       document.getElementById("logo").alt = "animationOut";
     }
   </script>
+
 </body>
 
 </html>
