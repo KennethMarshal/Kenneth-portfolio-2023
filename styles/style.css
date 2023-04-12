@@ -72,26 +72,26 @@ html {
 */
 
 :root {
-  --primary-text-color: #222;
+  --primary-text-color: white;
   --holding-page-title-color: #51017b;
   --accent-color: #ff009d;
   --hero-background-color: #7400bc;
   --overlay-color: #5200FF;
-  --hyperlink-color: #444;
+  --hyperlink-color: white;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Eczar', serif;
   --project-title-typeface: 'Eczar', serif;
-  --project-title-color: #723850;
-  --heart-color: darkred;
+  --project-title-color: white;
+  --heart-color: #51017b;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
-  --baby-powder: #000000;
+  --baby-powder: white;
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color: #7400bc;
+  --background-color: black;
   --alt-background-color: black;
   --text-selection-background-color: #555;
   --dead-color: #51017b;
@@ -464,7 +464,7 @@ p {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 100vh;
-  background: #f5f5f5;
+  background: black;
   padding: 1rem;
 }
 
