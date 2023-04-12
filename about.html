@@ -39,23 +39,82 @@
   </li>
     </ul>
   </ul>
-  <footer class="hero-footer">
-    <ul class="hero-footer-navigation">
-      <li><a href="https://soundcloud.com/marshal-latham-bored" class="custom-navigation">SoundCloud</a></li>
-      <li><a href="mailto:torring29@gmail.com" class="custom-navigation">Email</a></li>
-    </ul>
-  </footer>
+  <ul class="global-footer">
+    <li class="footer-item-1">
+      <h2>Explore &amp; The &amp; Site</h2>
+      <ul class="footer-item-1">
+        <li class="footer-nav-item"><a href="work.html">Work Page</a></li>
+        <li class="footer-nav-item"><a href="about.html">About Me</a></li>
+        <li class="footer-nav-item"><a href="resume.html">Resume Page</a></li>
+        <li class="footer-nav-item"><a href="blog-1.html">Blog Page</a></li>
+        <li class="footer-nav-item"><a href="capstone-blog-1.html">Capstone Blog Page</a></li>
+      </ul>
+    </li>
+    <li class="footer-item-2">
+      <h2>Awards &amp; Recognition</h2>
+      <ul class="awards-list">
+        <li class="award-item"><a href="#">Coming Soon</a></li>
+      </ul>
+    </li>
+    <li class="footer-item-3">
+      <h2>Contact &amp; Social</h2>
+      <ul class="socials-list">
+        <li class="social-item"><a href="https://soundcloud.com/marshal-latham-bored">SoundCloud</a></li>
+        <li class="social-item"><a href="#">OtherLink</a></li>
+        <li class="social-item"><a href="https://codepen.io/KennethLatham">CodePen</a></li>
+      </ul>
+    </li>
+    <li class="footer-item-4">
+      <p><a href="#top">Smooth scroll to the top</a></p>
+      <p class="fineprint">&copy; 2022-2023. Hand crafted with <span class="heart">❤</span> + Flexbox + CSS Grid by
+        James Neufeld.</p>
+    </li>
+  </ul>
 
-    <div id="ghostanimation" class="ghost"><img src="assets/temp/cactus.svg" /></div>
-    <script type="text/javascript">function ShowHideDiv(btnGhost) {
+  <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>
+
+  <div id="ghostanimation" class="ghost"><img src="assets/temp/cactus.svg" /></div>
+  <script type="text/javascript">
+    function ShowHideDiv(btnGhost) {
       var GhostStyle = document.getElementById("ghostanimation");
-if (btnGhost.value == "Hide Ghost") {
-          GhostStyle.style.display = "none";
-          btnGhost.value = "Play Ghost";
+      if (btnGhost.value == "Hide Ghost") {
+        GhostStyle.style.display = "none";
+        btnGhost.value = "Play Ghost";
       } else {
-          GhostStyle.style.display = "block";
-          btnGhost.value = "Hide Ghost";
+        GhostStyle.style.display = "block";
+        btnGhost.value = "Hide Ghost";
       }
-  }</script>    
+    }
+  </script>
+  <script type="text/javascript">
+    myID = document.getElementById("myID");
+
+    var myScrollFunc = function () {
+      var y = window.scrollY;
+      if (y >= 800) {
+        myID.className = "bottomMenu show"
+      } else {
+        myID.className = "bottomMenu hide"
+      }
+    };
+
+    window.addEventListener("scroll", myScrollFunc);
+  </script>
+  <script>
+    function animationIn() {
+      document.getElementById("logo").src =
+        "assets/kenneth-latham-logo-off.svg";
+      document.getElementById("logo").alt = "animationIn";
+    }
+
+    function animationOut() {
+      document.getElementById("logo").src =
+        "assets/kenneth-latham-logo-on.svg";
+      document.getElementById("logo").alt = "animationOut";
+    }
+  </script>
+
+
 </body>
+
 </html>
