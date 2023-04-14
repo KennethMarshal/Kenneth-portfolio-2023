@@ -73,7 +73,7 @@ html {
 
 :root {
   --primary-text-color: white;
-  --holding-page-title-color: #51017b;
+  --holding-page-title-color: #ff009d;
   --accent-color: #ff009d;
   --hero-background-color: #7400bc;
   --overlay-color: #5200FF;
@@ -96,6 +96,7 @@ html {
   --text-selection-background-color: #555;
   --dead-color: #51017b;
   --blog-heading: black;
+  --holding-page-background: #51017b;
 }
 
 
@@ -423,7 +424,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #f5f5f5;
+  background: black;
   padding: 1rem;
   flex: 1;
 }
@@ -588,7 +589,7 @@ p {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: var(--background-color)
+  background: var(--holding-page-background)
 }
 
 
